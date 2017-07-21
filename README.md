@@ -19,6 +19,6 @@ This is a maven project to order **Accession Numbers**.
 ## Assumptions
 * Accession numbers will have the characters only between 0-9, A-Z. If there are special characters like "* ($" that particular number will be omitted  
 * Users can enter accession number with or without ",". Space " " is must to distinguish different accession numbers
-* Ordering takes based on character value. Ex: A00004 comes ahead of A01
+* Ordering is based on character value. Ex: A00004 comes ahead of A01
 * **Consecutive digits are considered** for ordering and NOT consecutive numbers. Ex: ABCD0018, ABCD0019, ABCD0020, ABCD0021, ABCD0022 will be ordered as ABCD0018-ABCD0019, ABCD0020-ABCD0022. This is as per the guidelines.
 
