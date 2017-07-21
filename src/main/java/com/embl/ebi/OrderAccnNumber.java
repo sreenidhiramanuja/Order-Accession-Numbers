@@ -8,7 +8,7 @@ import java.util.regex.Pattern;
 
 /**
  * 
- * This class sort the entered Accession Numbers.
+ * This class sorts the entered Accession Numbers.
  * Groups the accessions numbers if they are in the range and prints them
  *
  */
