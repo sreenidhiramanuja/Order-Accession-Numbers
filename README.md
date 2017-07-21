@@ -5,7 +5,7 @@ This is a maven project to order **Accession Numbers**.
 1. Download the zip or clone the project  
 2. Make sure Java 1.8 is installed and configured  
 3. Make sure latest Maven is installed and configured  
-4. In the command prompt (Windows/Linux) go to the directory where pom.xml file is present  
+4. Unzip and in the command prompt (Windows/Linux) go to the directory where pom.xml file is present  
 5. You can run "mvn --version" to view maven and Java paths  
 6. Run "mvn clean package" to build the project  
 7. At the end you should see "BUILD SUCCESS"  
