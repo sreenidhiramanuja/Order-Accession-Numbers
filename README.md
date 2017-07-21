@@ -14,3 +14,11 @@ This is a maven project to order **Accession Numbers**.
 10. Or you can cd to the directory "target\classes" and run the command "java -cp . com.embl.ebi.OrderAccnNumber <list of accession numbers>"  
 11. You will see the output "Ordered Accession Number list" followed by ordered list of accession numbers entered  
 12. Run the step 9/10 withe different set of accession numbers  
+
+
+## Assumptions
+* Accession numbers will have the characters only between 0-9, A-Z. If there are special characters like "* ($" that particular number will be omitted  
+* Users can enter accession number with or without ",". Space " " is must to distinguish different accession numbers
+* Ordering takes based on character value. Ex: A00004 comes ahead of A01
+* _Consecutive digits are considered_ for ordering and NOT consecutive numbers. Ex: ABCD0018, ABCD0019, ABCD0020, ABCD0021 will be ordered as ABCD18-19, ABCD10-21. This is as per the guidelines.
+* 
