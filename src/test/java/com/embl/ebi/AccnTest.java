@@ -31,7 +31,7 @@ public class AccnTest
     }
 
     /**
-     * Rigourous Test :-)
+     * Test methods
      */
     public void testApp()
     {
