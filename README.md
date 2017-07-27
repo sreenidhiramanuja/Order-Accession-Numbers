@@ -1,7 +1,5 @@
 # Order-Accession-Numbers
-This is a maven project to order **Accession Numbers**.   
-   (i)  Master/Tag 2.0_WedEndPoint provides with web interface  
-   (ii) Tag 1.0_CmdLine provides only command line interface  
+This is a maven project to order **Accession Numbers**.  
 
 ## To Build the project
 1. Download the zip or clone the project  
@@ -23,7 +21,7 @@ This is a maven project to order **Accession Numbers**.
 	    Content Type = Text/Plain  
 	    Body = [List of accession numbers]  
 	    
-    Please see the screen to view the same. ![alt text](https://github.com/sreenidhiramanuja/Order-Accession-Numbers/blob/master/POST.png)  
+Please see the screen to view the same. ![alt text](https://github.com/sreenidhiramanuja/Order-Accession-Numbers/blob/master/POST.png)  
 14. Once the request is sent response will be ordered accession number list  
 15. Run the step 12-13 with different set of accession numbers 
 16. To stop the web server please click enter  
