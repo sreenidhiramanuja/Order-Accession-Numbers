@@ -35,7 +35,7 @@ public class AccnTest
      */
     public void testApp()
     {
-		OrderAccnNumber testAccn = new OrderAccnNumber();
+		OrderAccnNumberImpl testAccn = new OrderAccnNumberImpl();
 		List<String> parseList = testAccn.Parse("ABCD000115");
 		List<String> verifyList = new ArrayList<String>();
 		verifyList.add("ABCD");
