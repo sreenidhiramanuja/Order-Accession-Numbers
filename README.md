@@ -1,5 +1,7 @@
 # Order-Accession-Numbers
 This is a maven project to order **Accession Numbers**. 
+   -  Master/Tag 2.0_WedEndPoint provides with web interface  
+   -  Tag 1.0_CmdLine provides only command line interface  
 
 ## To Build the project
 1. Download the zip or clone the project  
@@ -10,12 +12,22 @@ This is a maven project to order **Accession Numbers**.
 6. Run "mvn clean package" to build the project  
 7. At the end you should see "BUILD SUCCESS"  
 8. Target classes and jar will be built  
-9. Run "java -cp target\ebi-0.0.1-SNAPSHOT.jar com.embl.ebi.OrderAccnNumber [list of Accession numbers]"  
-10. Or you can cd to the directory "target\classes" and run the command "java -cp . com.embl.ebi.OrderAccnNumber [list of accession numbers]"  
-11. You will see the output "Ordered Accession Number list" followed by ordered list of accession numbers entered  
-12. Run the step 9/10 with different set of accession numbers  
-
-
+9. Run "java -cp target\ebi-0.0.1-SNAPSHOT.jar com.embl.ebi.OrderAccnNumber"  
+10. Or you can cd to the directory "target\classes" and run the command "java -cp . com.embl.ebi.OrderAccnNumber"  
+11. You will see the message "Embedded Web Server started. Port number: 8000" and also "Click enter to stop the Web Server"
+12. Please open any REST client like Chrome Advanced REST client  
+13. Send a POST request to "http://localhost:8000/OrderAccn" with the following details  
+	    Host = http://localhost:8000  
+	    Path = /OrderAccn  
+	    Type = POST  
+	    Content Type = Text/Plain  
+	    Body = [List of accession numbers]  
+    Please see the screen to view the same  
+14. Once the request is sent response will be ordered accession number list  
+15. Run the step 12-13 with different set of accession numbers 
+16. To stop the web server please click enter  
+ 
+ 
 ## Assumptions
 * Accession numbers will have the characters only between 0-9, A-Z. If there are special characters like "* ($" that particular number will be omitted  
 * Users can enter accession number with or without ",". Space " " is must to distinguish different accession numbers
