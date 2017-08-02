@@ -1,7 +1,8 @@
 # Order-Accession-Numbers
 This is a maven project to order **Accession Numbers**.  
-(i)  Master/Tag 2.0_WedEndPoint provides with web interface  
-(ii) Tag 1.0_CmdLine provides only command line interface  
+ (i) Master/Tag 3.0_Java8_Web provides Java 8 implementation along with Webend point
+(ii) Tag 2.0_WedEndPoint provides with web interface  
+(iii) Tag 1.0_CmdLine provides only command line interface  
 
 
 ## To Build the project
