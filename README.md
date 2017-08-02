@@ -1,6 +1,6 @@
 # Order-Accession-Numbers
 This is a maven project to order **Accession Numbers**.  
- (i) Master/Tag 3.0_Java8_Web provides Java 8 implementation along with Webend point
+ (i) Master/Tag 3.0_Java8_Web provides Java 8 implementation along with Webend point  
 (ii) Tag 2.0_WedEndPoint provides with web interface  
 (iii) Tag 1.0_CmdLine provides only command line interface  
 
@@ -33,7 +33,7 @@ Please see the screen to view the same. ![alt text](https://github.com/sreenidhi
  
 ## Assumptions
 * Accession numbers will have the characters only between 0-9, A-Z. If there are special characters like "* ($" that particular number will be omitted  
-* Users can enter accession number with or without ",". Space " " is must to distinguish different accession numbers
+* Users can enter accession number with or without ",".  Space " " is must to distinguish different accession numbers
 * Ordering is based on character value. Ex: A00004 comes ahead of A01
 * **Consecutive digits are considered** for ordering and NOT consecutive numbers. Ex: ABCD0018, ABCD0019, ABCD0020, ABCD0021, ABCD0022 will be ordered as ABCD0018-ABCD0019, ABCD0020-ABCD0022. This is as per the guidelines.
 
